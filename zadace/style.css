@@ -1,0 +1,18 @@
+h1 {font-weight: 600;
+    font-size: 3rem
+    font-family: "roboto", sans-serif;}
+
+h2 {color: #4CAF50; font-family: "roboto", sans-serif;}
+p {background-color: #ECEFF1; font-family: "open sans", sans-serif;}
+
+.paragraf1 {color: #37474F; font-size: 16px;}
+
+.paragraf2 {color: #546E7A; font-size: 18px;}
+
+.paragraf3 {color: #78909C; font-size: 20px;}
+
+ul.a {list-style-type: square;}
+
+.highlight {color: #FFC107;}
+
+#main-title {font-size: 4rem;}
