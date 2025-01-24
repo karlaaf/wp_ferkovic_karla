@@ -3,9 +3,204 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Recepti</title>
 </head>
 <body>
     
 </body>
 </html>
+<html lang="hr"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recepti</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #9f24c1;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+}
+
+section {
+    grid-column: span 4;
+    background-color: #f098e4;
+    border: 1px solid #ef95e9;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+}
+.recept img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border: 2px solid #e77ae5;
+            transition: opacity 0.3s;
+        }
+
+
+footer {
+    background-color: #3f1f4c;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+#kontakt {
+    background-color: #e5adef;
+    border: 1px solid #f9aaed;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    max-width: 600px;
+}
+/* Stilizacija za mobilne uređaje */
+@media (max-width: 480px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    section {
+        grid-column: span 12;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Recepti koji su gotovi do 15 minuta!</h1>
+        <p>Iskušajte talijansku kuhinju!</p>
+    </header>
+
+    <main>
+        <section id="predjela">
+            <h2>Predjela</h2>
+            <div class="recept">
+                <img src="https://www.lauraadamache.ro/wp-content/uploads/2013/02/Salata-caprese1.jpg" alt="Predjelo">
+                <h3>Salata Caprese</h3>
+                <p>Talijanska jednostavnost kojoj se ne može odoljeti.</p>
+                <h3>SASTOJCI</h3>
+               
+                <li>500 g srednje velikih rajčica</li>
+                <li>300 g mozzarella sira</li>
+                <li>30-40 g bosiljka</li>
+                <li>svježe mljeveni Vegeta Maestro crni papar u zrnu</li>
+                <li>100 ml ekstra djevičanskog maslinovog ulja</li>
+                <li>Vegeta</li>
+            
+           
+            <h3>PRIPREMA</h3>
+            <p>Narežite rajčice na ploške, pospite ih Vegetom i ostavite neka malo odstoje. Mozzarellu narežite na ploške pa ih zajedno s rajčicama rasporedite na većem tanjuru tako da se preklapaju.
+                Ukrasite bosiljkom narezanim na trakice i pospite paprom.
+                Salatu poškropite maslinovim uljem i poslužite s bijelim kruhom.
+                Ukoliko želite, salatu možete poškropiti s malo aceta balsamica.
+                 
+                 
+                </p>
+                
+            </div>
+        </section>
+
+        <section id="glavna-jela">
+            <h2>Glavna jela</h2>
+            <div class="recept">
+                <img src="https://piovariations.cdn.podravka.net/fefda0f8-52ea-11ee-82ba-daa9b5b3197f/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1024x768-f2b21802-64bc-11eb-a115-0242ac130010.jpeg" alt="Glavno jelo">
+                <h3>Losos s medom i senfom</h3>
+                <p>Kombinacija meda i senfa dat će filetima lososa sasvim novu okusnu dimenziju.</p>
+                <h3>SASTOJCI</h3>
+               
+                    <li>4 veća fileta lososa (600- 800 g)</li>
+                    <li>2 žlice maslinova ulja</li>
+                    <li>2-3 žličice Vegete</li>
+                    <li>1,5 žlica Podravka Senfa Dijon</li>
+                    <li>2 žlice meda</li>
+                    
+               
+                <h3>PRIPREMA</h3>
+                <p>
+                    Losos rasporedite na lim za pečenje obložen papirom za pečenje.
+                    Premažite ga maslinovim uljem i pospite Vegetom.
+                    U manjoj zdjelici pomiješajte senf i med te premažite preko lososa.
+                    Pecite u pećnici zagrijanoj na 250° C na najvišoj polici 8-10 minuta.
+                    Poslužite sa lisnatom salatom.Umjesto meda možete koristiti smeđi šećer ili javorov sirup.</p>
+            </div>
+        </section>
+
+        <section id="deserti">
+            <h2>Deserti</h2>
+            <div class="recept">
+                <img src="https://piovariations.cdn.podravka.net/f98f8fee-fe92-11ec-b5d3-9e02b3172065/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/480x360-f2b21622-64bc-11eb-a2bd-0242ac130010.webp" alt="Desert">
+                <h3>Choco vanilla desert s višnjama</h3>
+                <p>Višnje mogu svaku slasticu podići za stepenicu više.</p>
+                <h3>SASTOJCI</h3>
+               
+                    <li>1 Doclela Choco vanilla desert</li>
+                    <li>400 ml mlijeka</li>
+                    <li>200 ml vrhnja za šlag</li>
+                    <li>7-8 žlica Nadjeva od višanja Podravka</li>
+                    <li>svježe višnje ili trešnje za posluživanje</li>
+                    <li>čokoladne mrvice za dekoraciju</li>
+               
+                <h3>PRIPREMA</h3>
+                <p> U posudu prikladnu za miksanje ulijte 200 ml hladnog mlijeka i 100 ml vrhnja za šlag te dodajte sadržaj mješavine za pripremu vanilla deserta. 
+
+                    
+                    U drugu posudu prikladnu za miksanje ulijte 200 ml hladnog mlijeka i 100 ml vrhnja za šlag te dodajte sadržaj mješavine za pripremu choco deserta.
+                    
+                
+                    Slažite kreme u četiri čaše, prvo čokoladnu, a zatim onu od vanilije. Zatim stavite sloj nadjeva od višanja te ponovite čokoladnu i kremu od vanilije.
+                    
+                
+                    Desert dekorirajte svježim voćem i čokoladnim mrvicama. Tako pripremljeni desert ostavite da se hladi u hladnjaku najmanje 30 minuta prije serviranja.</p>
+            </div>
+        </section>
+
+    </main>
+<section id="kontakt">
+    <h2>Sviđaju Vam se recepti?</h2>
+    <p>Pošaljite vašu email adresu, OIB, ime i prezime te će te dobiti obavijesti za nove recepte!</p>
+    <form action="" method="post">
+        <label for="ime">Ime:</label><br>
+        <input type="text" id="ime" name="ime" required="" placeholder="Vaše ime"><br><br>
+
+        <label for="prezime">Prezime:</label><br>
+        <input type="text" id="prezime" name="prezime" required="" placeholder="Vaše prezime"><br><br>
+
+        <label for="oib">OIB:</label><br>
+        <input type="text" id="oib" name="oib" pattern="\d{11}" required="" placeholder="11 znamenki"><br><br>
+
+        <label for="email">Email adresa:</label><br>
+        <input type="email" id="email" name="email" required="" placeholder="vaš@email.com"><br><br>
+
+        <button type="submit">Pošalji</button>
+    </form>
+</section>
+
+    <footer>
+        <p>Pratite nas na društvenim mrežama:</p>
+        <a href="https://facebook.com" target="_blank"> Facebook</a>
+        <a href="https://instagram.com" target="_blank">Instagram</a>
+    </footer>
+
+
+
+
+<scribe-shadow id="crxjs-ext" style="position: fixed; width: 0px; height: 0px; top: 0px; left: 0px; z-index: 2147483647; overflow: visible; visibility: visible;"></scribe-shadow></body></html>
